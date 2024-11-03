@@ -1,0 +1,18 @@
+.navbar
+{
+    font-family: 'Din', sans-serif; 
+    font-size: 20px; 
+    background: linear-gradient(rgba(1,1,1,0.750),rgba(1,1,1,0.750));
+}
+
+#header
+{
+    font-family: 'Din', sans-serif; 
+    font-size: 20px; 
+}
+
+.loading-text
+{
+    max-width: 80vw;
+    font-size: 200px;
+}

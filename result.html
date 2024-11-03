@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/images/thewhat.jpg">
+    <link rel="stylesheet" href="/css/result.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.cdnfonts.com/css/valorant" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/d-din" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/valorant');
+        @import url('https://fonts.cdnfonts.com/css/d-din');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+    </style>
+  </head>
+    <!---------------------------- HEADER ---------------------------->
+    <header id="header" class="bg-image-full d-flex flex-column" style="width: 100vw; height: 100vh; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(130,140,160,1)), url(/images/cat-bg.png); background-position: center;">
+        <div class="d-flex flex-column m-lg-auto my-auto mx-5 align-items-center">
+            <h4 class="mb-4 text-center fw-bold" style="font-size: 30px; max-width: 80vw; color: aliceblue;">Your Personality Type is :</h4>
+            <h1 id="header-name" class="m-0 fw-semibold text-wrap text-center">Loading..</h1>
+            <h2 id="header-type" class="mt-5 text-center fw-bold">Loading..</h2>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+          <i onclick="arrow_scroll()" class="arrow-icon bi bi-arrow-down btn-outline-light"></i>
+        </div> 
+    </header>
+    <!---------------------------- HEADER ---------------------------->
+    <div class="shape"></div>
+    <!---------------------------- Description ---------------------------->
+    <section id="description" class="section-padding" style="width: 100vw;">
+        <div class="container align-content-center">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div id="description-title" class="description-title">
+                <h1 class="display-4 fw-semibold mt-5">Personality Traits</h1>
+                <p>Down into the details</p>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="paragraph-text" class="container align-content-left mx-auto">
+          <p>Loading...</p>
+        </div>      
+    </section>
+    <!---------------------------- Description ---------------------------->
+    <!-- Bar -->
+    <section id="description" class="section-padding" style="width: 100vw;">
+      <div class="container align-content-center">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div id="percentage-bar" class="percentage-bar align-content-center rounded-5">
+              <!-- YR -->
+              <div class="d-flex align-items-center justify-content-center my-5 mx-auto" style="width: 60rem;">
+                <div class="label-left text-center" id="bar-0-ltr">
+                  <div class="big-letter">Y</div>
+                  <div class="small-text">Yapper</div>
+                </div>
+                <div class="progress mx-3 rounded-5" style="width: 100%; height: 25px;" id="bar-0">
+                  <div class="progress-bar rounded-5 bg-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                </div>
+                <div class="label-right text-center" id="bar-0-rtl">
+                  <div class="big-letter">R</div>
+                  <div class="small-text">Rare Pokemon</div>
+                </div>
+              </div>
+              <!-- YR -->
+              <!-- SM -->
+              <div class="d-flex align-items-center justify-content-center my-5 mx-auto" style="width: 60rem;">
+                <div class="label-left text-center" id="bar-1-ltr">
+                  <div class="big-letter">S</div>
+                  <div class="small-text">Schizo Racist</div>
+                </div>
+                <div class="progress mx-3 rounded-5" style="width: 100%; height: 25px;" id="bar-1">
+                  <div class="progress-bar rounded-5 bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                </div>
+                <div class="label-right text-center" id="bar-1-rtl">
+                  <div class="big-letter">M</div>
+                  <div class="small-text">Mein Führer</div>
+                </div>
+              </div>
+              <!-- SM -->
+              <!-- PC -->
+              <div class="d-flex align-items-center justify-content-center my-5 mx-auto" style="width: 60rem;">
+                <div class="label-left text-center" id="bar-2-ltr">
+                  <div class="big-letter">P</div>
+                  <div class="small-text">Punching Bag</div>
+                </div>
+                <div class="progress mx-3 rounded-5" style="width: 100%; height: 25px;" id="bar-2">
+                  <div class="progress-bar rounded-5" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                </div>
+                <div class="label-right text-center" id="bar-2-rtl">
+                  <div class="big-letter">C</div>
+                  <div class="small-text">Cyber Bully</div>
+                </div>
+              </div>
+              <!-- PC -->
+              <!-- GK -->
+              <div class="d-flex align-items-center justify-content-center my-5 mx-auto" style="width: 60rem;">
+                <div class="label-left text-center" id="bar-3-ltr">
+                  <div class="big-letter">G</div>
+                  <div class="small-text">Gay</div>
+                </div>
+                <div class="progress mx-3 rounded-5" style="width: 100%; height: 25px;" id="bar-3">
+                  <div class="progress-bar rounded-5 bg-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                </div>
+                <div class="label-right text-center" id="bar-3-rtl">
+                  <div class="big-letter">K</div>
+                  <div class="small-text">Kinky</div>
+                </div>
+              </div>
+              <!-- GK -->
+              <!-- ZV -->
+              <div class="d-flex align-items-center justify-content-center my-5 mx-auto" style="width: 60rem;">
+                <div class="label-left text-center" id="bar-4-ltr">
+                  <div class="big-letter">Z</div>
+                  <div class="small-text">Rizzler</div>
+                </div>
+                <div class="progress mx-3 rounded-5" style="width: 100%; height: 25px;" id="bar-4">
+                  <div class="progress-bar rounded-5 bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="0">0%</div>
+                </div>
+                <div class="label-right text-center" id="bar-4-rtl">
+                  <div class="big-letter">V</div>
+                  <div class="small-text">Virgin</div>
+                </div>
+              </div>
+              <!-- ZV -->
+            </div>
+          </div>
+        </div>
+      </div>    
+  </section>
+  <!-- Bar -->
+    <div class="col-lg-12 text-center align-items-center mt-5 mb-5">
+      <a href="/potential.html"><button id="quiz-submit" type="button" class="btn btn btn-light mt-3 rounded-5">Unlock Your Potential&nbsp;&nbsp;<i class="bi bi-search"></i></button></a>
+    </div>
+    <script src="/js/result.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
