@@ -8,14 +8,15 @@
 #header
 {
     font-family: 'Din', sans-serif; 
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 #header-name
 {
     font-size: 100px;
     max-width: 80vw;
-    color: rgb(255, 150, 0);
+    color: #b54a07;
+    /* rgb(211, 126, 7); */
 }
 
 #header-type

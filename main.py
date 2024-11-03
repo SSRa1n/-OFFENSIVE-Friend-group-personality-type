@@ -51,8 +51,3 @@ def web_get_percentage(answer_list: list):
     answer_list = answer_list.split(',')
     answer_list = [int(answer) for answer in answer_list]
     return get_personality_percentage(get_personality(answer_list))
-
-personality_dict = get_personality([2,-1,-2,1,1,1,-2,-2,-2,1,2,-2,-2,2,1,2,2,2,-2,1,-2,-2,-2,1,-2])
-print(personality_dict)
-print(get_personality_percentage(personality_dict))
-print(get_personality_detail('YMCGZ'))

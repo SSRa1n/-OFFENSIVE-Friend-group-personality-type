@@ -35,7 +35,3 @@ for index, quiz in datasheet.iterrows():
             quiz['Question']
         )
     )
-print(trait_dict)
-print(full_trait_dict)
-# for quiz in quiz_list:
-#     print(quiz)
